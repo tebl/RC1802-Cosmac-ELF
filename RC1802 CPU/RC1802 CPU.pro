@@ -1,4 +1,4 @@
-update=18/06/2017 21:48:43
+update=14/06/2018 20:37:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +59,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=C:/Program Files/KiCad/share/kicad/library/Oscillators
 LibName32=C:/Program Files/KiCad/share/kicad/library/switches
+[general]
+version=1
