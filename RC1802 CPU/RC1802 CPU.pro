@@ -1,4 +1,4 @@
-update=21/06/2018 16:26:00
+update=07/08/2018 23:15:32
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,15 @@ LibName29=contrib
 LibName30=valves
 LibName31=C:/Program Files/KiCad/share/kicad/library/Oscillators
 LibName32=C:/Program Files/KiCad/share/kicad/library/switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
