@@ -47,93 +47,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X39 J5
-U 1 1 5945F778
-P 15900 7800
-F 0 "J5" H 15900 9800 50  0000 C CNN
-F 1 "CONN_01X39" V 16000 7800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x39_Pitch2.54mm" H 15900 7800 50  0001 C CNN
-F 3 "" H 15900 7800 50  0001 C CNN
-	1    15900 7800
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	15175 8600 15275 8700
-Entry Wire Line
-	15175 8500 15275 8600
-Entry Wire Line
-	15175 8400 15275 8500
-Entry Wire Line
-	15175 8700 15275 8800
-Entry Wire Line
-	15175 8800 15275 8900
-Entry Wire Line
-	15175 8900 15275 9000
-Entry Wire Line
-	15175 9000 15275 9100
-Entry Wire Line
-	15175 9100 15275 9200
-Text Label 15275 8500 0    60   ~ 0
-BUS0
-Text Label 15275 8600 0    60   ~ 0
-BUS1
-Text Label 15275 8700 0    60   ~ 0
-BUS2
-Text Label 15275 8800 0    60   ~ 0
-BUS3
-Text Label 15275 8900 0    60   ~ 0
-BUS4
-Text Label 15275 9000 0    60   ~ 0
-BUS5
-Text Label 15275 9100 0    60   ~ 0
-BUS6
-Text Label 15275 9200 0    60   ~ 0
-BUS7
-$Comp
-L VCC #PWR01
-U 1 1 5946201E
-P 15575 7600
-F 0 "#PWR01" H 15575 7450 50  0001 C CNN
-F 1 "VCC" H 15575 7750 50  0000 C CNN
-F 2 "" H 15575 7600 50  0001 C CNN
-F 3 "" H 15575 7600 50  0001 C CNN
-	1    15575 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 5946208C
-P 15325 7500
-F 0 "#PWR02" H 15325 7250 50  0001 C CNN
-F 1 "GND" H 15325 7350 50  0000 C CNN
-F 2 "" H 15325 7500 50  0001 C CNN
-F 3 "" H 15325 7500 50  0001 C CNN
-	1    15325 7500
-	1    0    0    -1  
-$EndComp
-Text GLabel 14975 8325 0    60   BiDi ~ 0
-BUS
-Text GLabel 15700 6200 0    60   Output ~ 0
-EF4
-Text GLabel 15700 8100 0    60   Output ~ 0
-Q
-Text GLabel 15700 6300 0    60   Output ~ 0
-SC1
-Text GLabel 15700 7700 0    60   Input ~ 0
-~CLEAR
-Text GLabel 15700 7800 0    60   Input ~ 0
-~WAIT
-Text GLabel 15700 9500 0    60   Output ~ 0
-N2
-Text GLabel 15700 8300 0    60   Output ~ 0
-MRD
-Text GLabel 15700 8200 0    60   Output ~ 0
-MWR
-Text GLabel 15700 6500 0    60   Output ~ 0
-TPB
-Text GLabel 15700 9400 0    60   Output ~ 0
-DMA_IN
-$Comp
 L 4050 U2
 U 1 1 594798B1
 P 1725 6425
@@ -1112,28 +1025,6 @@ NoConn ~ 15550 1925
 NoConn ~ 15750 1925
 NoConn ~ -625 2850
 Wire Wire Line
-	15700 8500 15275 8500
-Wire Wire Line
-	15275 8600 15700 8600
-Wire Wire Line
-	15275 8700 15700 8700
-Wire Wire Line
-	15275 8800 15700 8800
-Wire Wire Line
-	15275 8900 15700 8900
-Wire Wire Line
-	15275 9000 15700 9000
-Wire Wire Line
-	15275 9100 15700 9100
-Wire Wire Line
-	15275 9200 15700 9200
-Wire Bus Line
-	15175 8325 15175 9100
-Wire Wire Line
-	15575 7600 15700 7600
-Wire Wire Line
-	15325 7500 15700 7500
-Wire Wire Line
 	1175 6425 1275 6425
 Wire Wire Line
 	1225 6425 1225 6200
@@ -1238,8 +1129,6 @@ Connection ~ 6775 10800
 Wire Wire Line
 	6775 10650 6875 10650
 Connection ~ 6775 10400
-Wire Bus Line
-	15175 8325 14975 8325
 Wire Wire Line
 	5100 8925 5100 7800
 Wire Wire Line
@@ -1488,26 +1377,6 @@ F 3 "" H 650 5750 50  0001 C CNN
 	1    650  5750
 	-1   0    0    1   
 $EndComp
-Text GLabel 15700 8400 0    60   Input ~ 0
-MP
-NoConn ~ 15700 9600
-NoConn ~ 15700 9700
-NoConn ~ 15700 9300
-NoConn ~ 15700 8000
-NoConn ~ 15700 7900
-NoConn ~ 15700 7400
-NoConn ~ 15700 7300
-NoConn ~ 15700 7200
-NoConn ~ 15700 7100
-NoConn ~ 15700 7000
-NoConn ~ 15700 6900
-NoConn ~ 15700 6800
-NoConn ~ 15700 6700
-NoConn ~ 15700 6600
-NoConn ~ 15700 6400
-NoConn ~ 15700 6100
-NoConn ~ 15700 6000
-NoConn ~ 15700 5900
 $Comp
 L CONN_02X20 J6
 U 1 1 594C4D41
