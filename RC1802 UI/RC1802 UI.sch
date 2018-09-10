@@ -748,13 +748,13 @@ STROBE
 $Comp
 L VCC #PWR028
 U 1 1 595A4155
-P 6775 7700
-F 0 "#PWR028" H 6775 7550 50  0001 C CNN
-F 1 "VCC" H 6775 7850 50  0000 C CNN
-F 2 "" H 6775 7700 50  0001 C CNN
-F 3 "" H 6775 7700 50  0001 C CNN
-	1    6775 7700
-	0    1    1    0   
+P 5775 7150
+F 0 "#PWR028" H 5775 7000 50  0001 C CNN
+F 1 "VCC" H 5775 7300 50  0000 C CNN
+F 2 "" H 5775 7150 50  0001 C CNN
+F 3 "" H 5775 7150 50  0001 C CNN
+	1    5775 7150
+	1    0    0    -1  
 $EndComp
 $Comp
 L 4050 U2
@@ -1286,17 +1286,6 @@ Connection ~ 14375 1200
 Wire Wire Line
 	14375 900  14375 950 
 Connection ~ 14375 900 
-$Comp
-L R_Network08 RN1
-U 1 1 594D0AD4
-P 6375 7500
-F 0 "RN1" V 5875 7500 50  0000 C CNN
-F 1 "100k" V 6775 7500 50  0000 C CNN
-F 2 "Resistors_THT:R_Array_SIP9" V 6850 7500 50  0001 C CNN
-F 3 "" H 6375 7500 50  0001 C CNN
-	1    6375 7500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6075 6950 6075 7300
 Wire Wire Line
@@ -1336,7 +1325,7 @@ Wire Wire Line
 Wire Wire Line
 	9675 7275 9675 6950
 Wire Wire Line
-	6775 7300 10275 7300
+	5775 7300 10275 7300
 Wire Wire Line
 	10275 7300 10275 6950
 $Comp
@@ -1650,4 +1639,13 @@ Wire Wire Line
 Connection ~ 11350 6375
 Wire Wire Line
 	6950 9475 7200 9475
+Connection ~ 6675 7300
+Connection ~ 6575 7300
+Connection ~ 6475 7300
+Connection ~ 6375 7300
+Connection ~ 6275 7300
+Connection ~ 6175 7300
+Connection ~ 6075 7300
+Wire Wire Line
+	5775 7150 5775 7300
 $EndSCHEMATC
