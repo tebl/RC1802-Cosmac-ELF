@@ -1062,7 +1062,7 @@ Text GLabel 12375 4825 0    60   Output ~ 0
 SC1
 Text GLabel 12375 4925 0    60   Output ~ 0
 TPB
-Text GLabel 12375 4625 0    60   Output ~ 0
+Text GLabel 12375 4625 0    60   Input ~ 0
 Q
 Text GLabel 12375 4425 0    60   Input ~ 0
 ~CLEAR
@@ -1089,13 +1089,13 @@ $EndComp
 $Comp
 L 74LS04 U1
 U 2 1 5B22F8BE
-P 1150 10600
-F 0 "U1" H 1345 10715 50  0000 C CNN
-F 1 "74LS04" H 1340 10475 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 1150 10600 50  0001 C CNN
-F 3 "" H 1150 10600 50  0001 C CNN
-	2    1150 10600
-	0    1    1    0   
+P 13725 4625
+F 0 "U1" H 13920 4740 50  0000 C CNN
+F 1 "74LS04" H 13915 4500 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 13725 4625 50  0001 C CNN
+F 3 "" H 13725 4625 50  0001 C CNN
+	2    13725 4625
+	-1   0    0    1   
 $EndComp
 $Comp
 L 74LS04 U1
@@ -1141,7 +1141,6 @@ F 3 "" H 2750 10600 50  0001 C CNN
 	6    2750 10600
 	0    1    1    0   
 $EndComp
-NoConn ~ 1150 11050
 NoConn ~ 1550 11050
 NoConn ~ 1950 11050
 NoConn ~ 2350 11050
@@ -1864,8 +1863,6 @@ Wire Bus Line
 Wire Wire Line
 	12950 3525 12950 5400
 Wire Wire Line
-	12950 3525 12875 3525
-Wire Wire Line
 	12875 3625 12950 3625
 Connection ~ 12950 3625
 Wire Wire Line
@@ -1893,11 +1890,8 @@ Wire Wire Line
 	12875 4425 12950 4425
 Connection ~ 12950 4425
 Wire Wire Line
-	12875 4525 12950 4525
+	12950 4525 12875 4525
 Connection ~ 12950 4525
-Wire Wire Line
-	12875 4625 12950 4625
-Connection ~ 12950 4625
 Wire Wire Line
 	12875 4725 12950 4725
 Connection ~ 12950 4725
@@ -1924,9 +1918,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 1300 11925 1300
 Wire Wire Line
-	1150 10150 1150 10000
-Wire Wire Line
-	1150 10000 3000 10000
+	1550 10000 3000 10000
 Wire Wire Line
 	3000 10000 3000 10150
 Wire Wire Line
@@ -1938,9 +1930,6 @@ Connection ~ 2350 10000
 Wire Wire Line
 	1950 10150 1950 10000
 Connection ~ 1950 10000
-Wire Wire Line
-	1550 10150 1550 10000
-Connection ~ 1550 10000
 Wire Wire Line
 	7925 3550 8750 3550
 Wire Wire Line
@@ -2029,4 +2018,14 @@ Wire Wire Line
 	1600 2025 1100 2025
 Wire Wire Line
 	1100 2025 1100 1900
+Wire Wire Line
+	12875 3525 12950 3525
+Wire Wire Line
+	12875 4625 13275 4625
+Text GLabel 14175 4625 2    60   Input ~ 0
+Q
+Wire Wire Line
+	1550 10150 1550 10000
+Text Label 13050 4625 0    60   ~ 0
+~Q
 $EndSCHEMATC
