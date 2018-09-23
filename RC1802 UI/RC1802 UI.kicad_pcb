@@ -2282,7 +2282,7 @@
   (gr_text 0 (at 182.245 145.415) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "RC1802 Cosmac ELF\nRevision C" (at 150.114 72.136) (layer F.SilkS)
+  (gr_text "RC1802 Cosmac ELF\nUI Board Revision C" (at 150.114 72.136) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 199.39 147.32) (end 199.39 71.755) (angle 90) (layer Edge.Cuts) (width 0.15))

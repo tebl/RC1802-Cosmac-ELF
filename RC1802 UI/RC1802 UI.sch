@@ -1389,7 +1389,7 @@ Wire Bus Line
 	14350 7600 14150 7600
 Text GLabel 14875 9275 0    60   Output ~ 0
 N2
-Text GLabel 14875 9175 0    60   Output ~ 0
+Text GLabel 14875 9175 0    60   Input ~ 0
 DMA_IN
 $Comp
 L VCC #PWR030
