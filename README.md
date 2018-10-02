@@ -38,8 +38,6 @@ following set of modules:
 
 In order to keep PCB fabrication costs down, around 5$ for 10 of each from [PCBWay.com](https://www.pcbway.com/member/order/orderonline.aspx) or
 [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html) to just mention a 
-couple. Mainly they'll want you to upload a Zipped copy of everything in the
-export folder in each module, colour are 
-
-the computer is split into separate modules designed to connect
-together.
+couple. Mainly they'll simply want a zipped-up copy of everything in the
+export folder from each module, most options should just be left on defaults
+(just put 100x100 mm as size).
