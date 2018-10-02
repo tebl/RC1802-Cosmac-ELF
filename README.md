@@ -27,8 +27,19 @@ Because I wanted the experience on creating one the old fashioned way, also it
 had a lot of bits and bobs I never could figure out how worked... I don't have
 a degree in electronics, so every attempt to explain it to me has so far failed
 so this was my attempt to reduce all the things I didn't understand to just the
-basic number of things I don't understand, yet somehow actually works after only
-five revisions!
+minimal number of things I don't understand, yet somehow the thing actually works
+after only five revisions! There were some stupid mistakes done on the first ones,
+so let's not dig too far back in the commit logs as I'm easily embarrassed.
+
+While the first version had 256 bytes of RAM, this one supports a whopping 64K of
+addressable memory in the form of two slots that'll take either RAM or ROM! Should
+be more than enough for anyone, even if you've got ninja skills at toggling in
+data! Other added features includes extra blinking LEDs, a lot of them!
+
+
+![RC1802 Computer](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/2018-10-01%2022.44.42.jpg)
+![RC1802 Modules](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/2018-10-01%2022.42.22.jpg)
+
 
 ## Modules
 In order to create a working RC1802 Cosmac ELF computer you will need the
