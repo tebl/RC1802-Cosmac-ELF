@@ -16,7 +16,7 @@ Values in parenthesis is the component amounts that could be considered optional
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate yourself using Gerber files |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__CPU_module_revision_D_.html))  |     1 |
 | C1-C6        | 100nF ceramic capacitor               |     6 |
 | D1-D8        | 5mm LED (assorted colours)            |   (8) |
 | J5           | 1x39 right-angle pin header           |   (1) |

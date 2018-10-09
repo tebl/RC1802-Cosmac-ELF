@@ -16,7 +16,7 @@ Values in parenthesis is the component amounts that could be considered optional
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate yourself using Gerber files |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASE8_RC1802_UI.html))  |     1 |
 | C1-C7        | 100nF ceramic capacitor               |     7 |
 | D1           | 5mm LED (assorted colours)            |     1 |
 | D2-D7        | 1N4148 DO-35                          |     1 |
