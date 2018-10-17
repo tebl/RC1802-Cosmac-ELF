@@ -1889,8 +1889,6 @@ NoConn ~ 13125 4225
 NoConn ~ 13125 4325
 NoConn ~ 13125 4525
 NoConn ~ 13125 4625
-NoConn ~ 13125 4725
-NoConn ~ 13125 4825
 Text GLabel 8850 3800 3    60   Input ~ 0
 MP
 Text GLabel 6200 5925 1    60   Input ~ 0
@@ -1938,7 +1936,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1750 1500 1300
 Wire Wire Line
-	1500 1300 1800 1300
+	1425 1300 1800 1300
 Wire Wire Line
 	1800 1300 1800 1025
 Wire Wire Line
@@ -2108,4 +2106,11 @@ F 3 "" H 13400 5125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13125 5125 13400 5125
+Text GLabel 13125 4825 2    60   Input ~ 0
+CLOCK
+Text GLabel 1425 1300 0    60   Output ~ 0
+CLOCK_OUT
+Connection ~ 1500 1300
+Text GLabel 13125 4725 2    60   Input ~ 0
+CLOCK_OUT
 $EndSCHEMATC
