@@ -1855,12 +1855,9 @@ Wire Wire Line
 Text GLabel 3350 8400 0    60   Input ~ 0
 Q
 Wire Wire Line
-	13275 5125 13125 5125
-Wire Wire Line
 	13275 4925 13275 5200
 Wire Wire Line
 	13275 5025 13125 5025
-Connection ~ 13275 5125
 Wire Wire Line
 	13275 4925 13125 4925
 Connection ~ 13275 5025
@@ -1876,12 +1873,9 @@ F 3 "" H 13275 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13275 3525 13125 3525
-Wire Wire Line
 	13275 3325 13275 3600
 Wire Wire Line
 	13275 3425 13125 3425
-Connection ~ 13275 3525
 Wire Wire Line
 	13275 3325 13125 3325
 Connection ~ 13275 3425
@@ -2026,9 +2020,9 @@ Wire Wire Line
 Wire Wire Line
 	3475 7700 3475 7825
 Wire Wire Line
-	4625 7825 3475 7825
+	3475 7825 4625 7825
 Wire Wire Line
-	4625 7075 4625 7825
+	4625 7825 4625 7075
 Wire Wire Line
 	4625 7075 4500 7075
 Wire Wire Line
@@ -2100,4 +2094,18 @@ Wire Wire Line
 	925  7250 1200 7250
 Wire Wire Line
 	1200 7250 1200 7150
+NoConn ~ 13125 3525
+$Comp
+L VCC #PWR?
+U 1 1 5BC737DE
+P 13400 5125
+F 0 "#PWR?" H 13400 4975 50  0001 C CNN
+F 1 "VCC" H 13400 5275 50  0000 C CNN
+F 2 "" H 13400 5125 50  0001 C CNN
+F 3 "" H 13400 5125 50  0001 C CNN
+	1    13400 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13125 5125 13400 5125
 $EndSCHEMATC
