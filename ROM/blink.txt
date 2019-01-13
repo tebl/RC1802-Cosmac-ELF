@@ -1,0 +1,12 @@
+Flash blink.hex to 28C256 (yes, I know thats about 99,9% waste of space). Put into slot mapped into low memory to run the code directly (WE switch for this slot in the upper position), this is done by raising toggle switch marked RUN.
+
+If used with slot mapped to upper memory, need to toggle in a short program into lower RAM memory (WE switch for this slot in the lower position) to jump to $8000 (address 8000 in hex). To do this, put all switches (LOAD/MP/RUN) in lower position. Then raise LOAD switch, then toggle in the data listed below. Push IN after each line/byte, the hex display should echo the same byte after.
+
+HEX Binary    Comment
+C0  1100 0000 LBR
+80  1000 0000 80
+00  0000 0000 00
+
+Finish data entry by lowering LOAD switch, to verify that data entered is correct start by raising switch MP (Memory Protect) and then raising LOAD again. Press IN to have the RC6502 computer echo back each byte of data. To correct changes you need to toggle (down and then up again) the LOAD switch to reset the program counter. Keep MP raised and step through until the byte BEFORE the one with the error, lower the MP switch and input the correct byte. Push IN and see that the correct byte was now echoed back, if only changing that one byte - raise the MP switch again and use IN to step through the remaining data.
+
+When satisfied, lower all switches and then raise the RUN switch to have the computer execute the data entered into RAM. It will now jump to the ROM mapped into high memory, if it everything works as expected you should see the computer start to blink it's Q-led.

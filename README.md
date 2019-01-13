@@ -44,11 +44,10 @@ data! Other added features includes extra blinking LEDs, a lot of them!
 ## Modules
 In order to create a working RC1802 Cosmac ELF computer you will need the
 following set of modules:
-- [CPU Board](https://github.com/tebl/RC1802-Cosmac-ELF/tree/master/RC1802%20CPU)
-- [User Interface](https://github.com/tebl/RC1802-Cosmac-ELF/tree/master/RC1802%20UI)
+- [CPU Board](https://github.com/tebl/RC1802-Cosmac-ELF/tree/master/RC1802%20CPU) ([order](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__CPU_module_revision_E_.html?inviteid=88707))
+- [User Interface](https://github.com/tebl/RC1802-Cosmac-ELF/tree/master/RC1802%20UI) ([order](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__UI_module_revision_E_.html?inviteid=88707))
 
-In order to keep PCB fabrication costs down, around 5$ for 10 of each from [PCBWay.com](https://www.pcbway.com/member/order/orderonline.aspx) or
-[Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html) to just mention a 
-couple. Mainly they'll simply want a zipped-up copy of everything in the
-export folder from each module, most options should just be left on defaults
-(just put 100x100 mm as size).
+Optional modules:
+- [Backplane](https://github.com/tebl/RC6502-Apple-1-Replica/tree/master/RC6502%20Backplane) ([order](https://www.pcbway.com/project/shareproject/RC6502_Apple_1_Replica__Backplane_module_revision_A_.html?inviteid=88707))
+
+If you would like to have a copy of one or more modules, what you'll need to do is zip up the contents of the export directory for each module and give that to your favourite PCB fabrication plant. Personally I prefer to use [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=88707), each module is only 5$ each and new accounts even get the first one free! Please use the supplied link when signing up to help me support this project, I'll get a small discount on future orders and hopefully I can afford to keep developing new and exciting modules. Even easier, you can just click the orderring-url after each of the modules - that way you'll get something that works on the first try, and you'll support me in a small way for using the URL!
