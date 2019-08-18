@@ -1,4 +1,4 @@
-update=17/10/2018 13:30:07
+update=18/08/2019 17:26:41
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,6 +60,8 @@ LibName30=contrib
 LibName31=valves
 LibName32=C:/Program Files/KiCad/share/kicad/library/Oscillators
 LibName33=C:/Program Files/KiCad/share/kicad/library/switches
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -70,5 +72,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
