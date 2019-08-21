@@ -21,7 +21,8 @@ While the first version had 256 bytes of RAM, this one supports a whopping 64K o
 ![RC1802 Modules](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/2018-10-01%2022.42.22.jpg)
 
 ## Errata
-Revisions D through E had a fault relating to connection of 1802 pin 37 (DMA OUT), mainly that it was never actually connected to anything. Revision F fixes this issue, but you can fix earlier revisions by adding a wire between the bottom of resistor R2 and 1802 pin 37.
+- UI module revision D had issues where some traces were moved without doing ground plane refill, some lines may appear shorted because of it is. Recommended to replace UI module, but can be cut and rewired according to updated board - see [before](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/1802_ui_d1.PNG) and [after](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/1802_ui_d2.PNG) for reference.
+- CPU module revisions D through E had a fault relating to connection of 1802 pin 37 (DMA OUT), mainly that it was never actually connected to anything. Revision F fixes this issue, but you can fix earlier revisions by adding a wire between the bottom of resistor R2 and 1802 pin 37.
 
 ## Modules
 In order to create a working RC1802 Cosmac ELF computer you will need the following set of modules:
