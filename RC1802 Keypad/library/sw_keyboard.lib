@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SW_Keyboard
+#
+DEF SW_Keyboard SW 0 40 N N 1 F N
+F0 "SW" 25 100 50 H V L CNN
+F1 "SW_Keyboard" 0 -50 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 -125 0 -100 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 0 125 0 N
+P 2 0 1 0 100 50 -100 50 N
+X 2 2 125 -100 100 U 50 50 0 1 P
+X 1 1 -125 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
