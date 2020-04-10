@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "RC1802 UI"
 Date ""
-Rev ""
+Rev "F"
 Comp ""
 Comment1 ""
 Comment2 ""

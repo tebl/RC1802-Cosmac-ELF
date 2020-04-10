@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "RC1802 CPU"
 Date ""
-Rev ""
+Rev "F"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2063,8 +2063,6 @@ CLOCK_OUT
 Connection ~ 1500 1300
 Text GLabel 13125 4725 2    60   Input ~ 0
 CLOCK_OUT
-Text Notes 12200 10925 0    60   ~ 0
-RC1802 CPU board
 Wire Wire Line
 	4225 1175 4225 1300
 Wire Wire Line

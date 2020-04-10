@@ -1,5 +1,4 @@
 # RC1802 Cosmac ELF
-
 There are two ways you can get involved with computers on the nonprofessional level. You can buy one of several reasonably priced hobby computers, with all the added bells and whistles you'd ever want. On the other hand, you can build your own inexpensive system from scratch.
 
 That was rougly the start of the iconic Cosmac ELF-computers history, it was august 1976 and Popular Electronics magazine had just printed the first in a series of tutorials on how everyone could build their own computers using only common parts and the new 1802 processor from RCA.
@@ -16,13 +15,13 @@ Because I wanted the experience on creating one the old fashioned way, also it h
 
 While the first version had 256 bytes of RAM, this one supports a whopping 64K of addressable memory in the form of two slots that'll take either RAM or ROM! Should be more than enough for anyone, even if you've got ninja skills at toggling in data! Other added features includes extra blinking LEDs, a lot of them!
 
-
 ![RC1802 Computer](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/2018-10-01%2022.44.42.jpg)
 ![RC1802 Modules](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/2018-10-01%2022.42.22.jpg)
 
 ## Errata
 - UI module revision D had issues where some traces were moved without doing ground plane refill, some lines may appear shorted because of it is. Recommended to replace UI module, but can be cut and rewired according to updated board - see [before](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/1802_ui_d1.PNG) and [after](https://github.com/tebl/RC1802-Cosmac-ELF/raw/master/Gallery/1802_ui_d2.PNG) for reference.
 - CPU module revisions D through E had a fault relating to connection of 1802 pin 37 (DMA OUT), mainly that it was never actually connected to anything. Revision F fixes this issue, but you can fix earlier revisions by adding a wire between the bottom of resistor R2 and 1802 pin 37.
+- CPU module revision D had **a short** between **GND and VCC**! Later revisions do not have this issue, but if you have this version of the board: please remove pin 40 of the UI connector (top left pin) before attempting to power it up!
 
 ## Modules
 In order to create a working RC1802 Cosmac ELF computer you will need the following set of modules:
